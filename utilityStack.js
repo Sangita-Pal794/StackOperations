@@ -9,7 +9,5 @@ class Stack {
         console.log(`At position ${this.counter} Stack: ${this.newItem} `);
         this.counter++;
     }
-
-
 }
 module.exports = new Stack();
