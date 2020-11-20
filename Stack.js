@@ -1,2 +1,3 @@
 let util = require("./UtilityStack.js");
-util.push(30);
+util.pushItem(30);
+util.popItem();
