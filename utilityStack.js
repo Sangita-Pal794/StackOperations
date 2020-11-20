@@ -21,5 +21,18 @@ class Stack {
             return this.counter;
         }
     }
+/**To display stack items */
+    displayStack = () => {
+        if (this.counter == 0) {
+            console.log("The stack is empty!");
+        }
+        else {
+            let i = this.counter;
+            for (i=0; i > 0; i--) {
+                let nextItem = this.items[i-1];
+                console.log(`At position ${i} Stack: ${nextItem} `);
+            }
+        }
+    }
 }
 module.exports = new Stack();
