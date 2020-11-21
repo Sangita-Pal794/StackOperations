@@ -28,7 +28,7 @@ class Stack {
         }
         else {
             let i = this.counter;
-            for (i=0; i > 0; i--) {
+            for (; i > 0; i--) {
                 let nextItem = this.items[i-1];
                 console.log(`At position ${i} Stack: ${nextItem} `);
             }
